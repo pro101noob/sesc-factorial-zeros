@@ -1,6 +1,6 @@
-run: 1-c
+run: 123
 
-	./1-c
-1-c: 1-c.c
-	gcc -Wall -std=c11 1-c.c -o 1-c
-build: 1-c
+	./123
+123: 123.c
+	gcc -Wall -std=c11 123.c -o 123
+build: 123
